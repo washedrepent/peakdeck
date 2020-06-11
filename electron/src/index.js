@@ -13,7 +13,8 @@ const createWindow = () => {
     height: 600,
     webPreferences:{
       nodeIntegration: true,
-    }
+    },
+     'title-bar-style': 'hidden'
   });
 
   // and load the index.html of the app.
